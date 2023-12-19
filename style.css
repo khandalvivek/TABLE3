@@ -1,0 +1,29 @@
+table,td,th{
+    text-align: left;
+    font-size: 18px;
+}
+table{
+    width: 80%;
+    padding-left: 20%;
+    padding-top: 12%;
+}
+th,td{
+    padding: 10px;
+}
+tr:nth-child(odd){
+    background-color: rgba(21, 2, 40, 0.799);;
+}
+tr:nth-child(even){
+    background-color: rgb(31, 4, 56);;
+}
+.hor_head{
+    color: rgb(204, 38, 38);
+}
+.tab_cell{
+    color: white;
+}
+.tab_cell:hover{
+    background-color: rgb(255, 255, 0);
+    box-shadow: -3px 4px 1px  rgb(85, 85, 55);
+    color: black;
+}
